@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Construction</title>
+</head>
+<style>
+	/* General section styling */
+	.s-team {
+		padding: 50px 0;
+		background-color: #f5f5f5;
+		/* Optional: set background color */
+	}
+
+	/* Container styling */
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	/* Title styling */
+	.center-title {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	/* Centered team image styling */
+	.team-center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.team-thumb {
+		max-width: 100%;
+	}
+
+	.team-thumb img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* General section styling */
+	.s-why {
+		padding: 50px 0;
+		background-color: #f5f5f5;
+		/* Optional: set background color */
+	}
+
+	/* Container styling */
+	.container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	/* Title styling */
+	.def-title {
+		text-align: left;
+		/* Align title to the left */
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	/* Row layout for left and right content */
+	.why-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	/* Left section styling */
+	.why-left {
+		flex: 1;
+	}
+
+	/* Right section styling */
+	.why-right {
+		flex: 1;
+		text-align: center;
+		/* Center align image */
+	}
+
+	.why-right img {
+		max-width: 80%;
+		/* Adjust size as needed */
+		height: auto;
+	}
+
+	/* Feature items styling */
+	.why-features-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.why-features-icon {
+		margin-right: 10px;
+	}
+
+	.why-features-title {
+		font-weight: bold;
+	}
+
+	.why-features-desc {
+		color: #555;
+	}
+</style>
+
+<body>
+
+	<div class="modal-form mfp-hide mfp-with-anim" id="modal-form">
+
+		<div class="modal-form-head">
+			<div class="modal-form-logo">
+				<img src="images/banner1.jpg" alt="Construction">
+			</div>
+			<div class="modal-form-close">
+				<img src="images/banner2.jpg" alt="Close">
+			</div>
+		</div>
+
+		<div class="modal-form-body">
+			<div class="modal-form-title">Request a call</div>
+			<form>
+				<input type="text" placeholder="Your name*" required>
+				<input type="text" placeholder="Your phone*" required>
+				<button class="form-button">Send</button>
+			</form>
+		</div>
+
+	</div>
+
+	<div class="go-up">
+		<a href="#">
+			<img src="images/banner4.jpg" alt="Go up">
+		</a>
+	</div>
+
+	<header class="site-header">
+
+		<div class="header-top">
+			<div class="container">
+				<div class="header-row">
+
+					<!-- Header top mobile START -->
+					<div class="header-mobile-logo">
+						<a href="#">
+							<img src="images/White and Dark Green Minimalist Recycle Logo.png" alt="Construction">
+						</a>
+					</div>
+
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+					</div>
+					<!-- Header top mobile END -->
+
+					<!-- <div class="header-desc">Construction work of all kinds</div>
+					<div class="header-right">
+						<div class="header-info">
+							<img src="images/location.svg" alt="ул. Гагарина 5Б г. Сочи">
+							<span>Greenbe street 5B, Latvia</span>
+						</div>
+						<a href="tel:79504575654" class="header-info">
+							<img src="images/phone.svg" alt="+7 950 457 5654">
+							<span>+7 950 457 5654</span>
+						</a> -->
+
+					<!-- <div class="header-social">
+							<a href="#">
+								<img src="images/social-twitter.svg" alt="Twitter">
+							</a>
+							<a href="#">
+								<img src="images/social-vk.svg" alt="Вконтакте">
+							</a>
+							<a href="#">
+								<img src="images/social-facebook.svg" alt="Facebook">
+							</a>
+							<a href="#">
+								<img src="images/social-telegram.svg" alt="Telegram">
+							</a>
+						</div> -->
+				</div>
+			</div>
+		</div>
+		</div>
+
+		<div class="header-bottom">
+			<div class="container">
+				<div class="header-bottom-row">
+					<div class="header-logo">
+						<a href="#">
+							<img src="images/White and Dark Green Minimalist Recycle Logo.png" alt="Construction">
+						</a>
+					</div>
+
+					<nav class="header-nav">
+						<ul>
+							<li><a class="anchor-link" href="#s-about">About us</a></li>
+							<li><a class="anchor-link" href="#s-team">Our team</a></li>
+							<li><a class="anchor-link" href="https://ecoswap-reuben4955.softr.app/">Marketplace</a></li>
+							<li><a class="anchor-link" href="#s-contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Header mobile START -->
+		<div class="header-mobile-wrap">
+			<nav class="header-mobile-nav">
+				<ul>
+					<li><a class="anchor-link" href="#s-about">About us</a></li>
+					<li><a class="anchor-link" href="#s-services">Services</a></li>
+					<li><a class="anchor-link" href="https://ecoswap-reuben4955.softr.app/">Marketplace</a></li>
+					<li><a class="anchor-link" href="#s-contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="header-mobile-info">
+				<img src="images/location.svg" alt="ул. Гагарина 5Б г. Сочи">
+				<span>Greenbe street 5B, Latvia</span>
+			</div>
+			<a href="tel:79504575654" class="header-mobile-info">
+				<img src="images/phone.svg" alt="+7 950 457 5654">
+				<span>+7 950 457 5654</span>
+			</a>
+
+			<div class="header-mobile-social">
+				<a href="#">
+					<img src="images/social-twitter.svg" alt="Twitter">
+				</a>
+				<a href="#">
+					<img src="images/social-vk.svg" alt="Вконтакте">
+				</a>
+				<a href="#">
+					<img src="images/social-facebook.svg" alt="Facebook">
+				</a>
+				<a href="#">
+					<img src="images/social-telegram.svg" alt="Telegram">
+				</a>
+			</div>
+		</div>
+		<!-- Header mobile END -->
+
+	</header>
+
+
+	<section class="s-banner">
+
+		<div class="swiper banner-swiper">
+
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" style="background-image: url(images/banner1.jpg)">
+					<div class="banner-content">
+						<h2 class="banner-title wow fadeIn" data-wow-delay="0.2s"><strong>Carbon Emission</strong>
+							Marketplace for a Greener Future</h2>
+						<a href="https://ecoswap-reuben4955.softr.app/"
+							class="bannner-btn def-btn anchor-link wow fadeIn"
+							data-wow-delay="0.3s">Explore Our Marketplace</a>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image: url(images/banner2.jpg)">
+					<div class="banner-content">
+						<div class="banner-subtitle wow fadeIn">Sustainable Solutions</div>
+						<h2 class="banner-title"><strong>Offset Your Carbon Footprint</strong> and Support Climate
+							Action</h2>
+						<a href="https://ecoswap-reuben4955.softr.app/" class="banner-btn def-btn anchor-link">Explore
+							Our Marketplace</a>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image: url(images/banner4.jpg)">
+					<div class="banner-content">
+						<h2 class="banner-title"><strong>Join the Movement</strong> for Corporate Sustainability</h2>
+						<a href="https://ecoswap-reuben4955.softr.app/" class="banner-btn def-btn anchor-link">Explore
+							Our Marketplace</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="swiper-pagination wow fadeInUp" data-wow-delay="0.5s"></div>
+
+			<div class="container">
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+		</div>
+
+	</section>
+
+
+	<section class="s-about" id="s-about">
+		<div class="container">
+
+			<div class="about-row">
+				<div class="about-left">
+					<h2 class="def-title wow fadeInLeft" data-wow-delay="0.2s">About our company</h2>
+					<div class="def-desc wow fadeInLeft" data-wow-delay="0.3s">
+						<strong>Carbon Clever</strong> we bridge the gap between offset buyers and sellers in the
+						corporate world by connecting them with trusted carbon emission suppliers. Our platform empowers
+						companies to take meaningful climate action, making it easier to buy, sell, and manage carbon
+						offsets. Together, we’re driving a more sustainable future for all.
+					</div>
+					<a href="https://ecoswap-reuben4955.softr.app/" class="def-btn anchor-link wow fadeInLeft"
+						data-wow-delay="0.4s">Explore marketplace</a>
+				</div>
+
+				<div class="about-right">
+					<img src="images/banner9.jpg" alt="О нас" class="wow fadeIn" data-wow-delay="0.5s">
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+
+
+	<section class="s-why" id="s-why">
+		<div class="container">
+			<div class="why-row">
+				<div class="why-left">
+					<h2 class="def-title wow fadeInLeft" data-wow-delay="0.1s">Why us?</h2>
+					<div class="def-desc wow fadeInLeft" data-wow-delay="0.2s">
+						At Carbon Clever, we bridge the gap between corporate carbon offset buyers and sellers by
+						providing access to verified suppliers. We ensure that companies can reduce their carbon
+						footprints efficiently while supporting trusted, impactful projects.
+					</div>
+
+					<div class="why-features">
+						<div class="why-features-item">
+							<div class="why-features-icon wow fadeInLeft" data-wow-delay="0.3s">
+								<img src="images/check-mark.svg" alt="Check mark">
+							</div>
+							<div class="why-features-right">
+								<div class="why-features-title wow fadeInRight" data-wow-delay="0.4s">Verified Suppliers
+								</div>
+								<div class="why-features-desc wow fadeInRight" data-wow-delay="0.5s">
+									We partner with certified suppliers of carbon offsets, ensuring credibility and
+									compliance with international standards.
+								</div>
+							</div>
+						</div>
+
+						<div class="why-features-item">
+							<div class="why-features-icon wow fadeInLeft" data-wow-delay="0.3s">
+								<img src="images/check-mark.svg" alt="Check mark">
+							</div>
+							<div class="why-features-right">
+								<div class="why-features-title wow fadeInRight" data-wow-delay="0.4s">Cost Efficiency
+								</div>
+								<div class="why-features-desc wow fadeInRight" data-wow-delay="0.5s">
+									Our marketplace makes it easy for companies to reduce their carbon tax liabilities
+									by connecting them with affordable offset solutions.
+								</div>
+							</div>
+						</div>
+
+						<div class="why-features-item">
+							<div class="why-features-icon wow fadeInLeft" data-wow-delay="0.3s">
+								<img src="images/check-mark.svg" alt="Check mark">
+							</div>
+							<div class="why-features-right">
+								<div class="why-features-title wow fadeInRight" data-wow-delay="0.4s">Sustainability and
+									Profitability</div>
+								<div class="why-features-desc wow fadeInRight" data-wow-delay="0.5s">
+									By choosing us, companies can enhance their green credentials and appeal to
+									sustainability-conscious investors, positioning themselves for long-term success.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="why-right">
+					<img src="images/banner6.jpg" alt="Why Choose Us" class="wow fadeInRight" data-wow-delay="0.6s">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="s-team" id="s-team">
+		<div class="container">
+			<h2 class="center-title wow fadeIn" data-wow-delay="0.1s">Our Team</h2>
+
+			<div class="team-center">
+				<div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+					<img src="images/syntax_sisters_resized.jpg" alt="Our Team">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="s-form" id="s-contact">
+		<div class="container">
+			<div class="form-row">
+
+				<div class="form-left">
+					<h2 class="def-title">Do you have any questions?</h2>
+					<div class="def-desc">
+						If you have any questions or would like to order our services from us, please fill out the form
+						on the right. Our managers work around the clock and will call you back during the day.
+					</div>
+					<div class="form-image">
+						<img src="images/banner5.jpg" alt="Feedback form">
+					</div>
+				</div>
+
+				<div class="form-right">
+					<form>
+						<input type="text" placeholder="Your name*" required>
+						<input type="text" placeholder="Your phone*" required>
+						<input type="text" placeholder="Your email">
+						<textarea cols="30" rows="5" placeholder="Comment"></textarea>
+						<button class="def-btn form-button">Send</button>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="site-footer">
+		<div class="container">
+
+			<div class="footer-row">
+
+				<div class="footer-left">
+					<div class="footer-logo">
+						<a href="#">
+							<!-- <img src="images/logo-footer.svg" alt="Carbon Clever"> -->
+						</a>
+					</div>
+					<div class="footer-desc">
+						<strong>Carbon Clever</strong> connects corporate buyers and sellers of carbon offsets, bridging
+						the gap to a more sustainable future.
+					</div>
+				</div>
+
+				<div class="footer-right">
+					<nav class="footer-nav">
+						<h5 class="footer-title">Our Services</h5>
+						<ul>
+							<li><a href="#">Carbon Offset Marketplace</a></li>
+							<li><a href="#">Emission Analytics</a></li>
+							<li><a href="#">Sustainability Consulting</a></li>
+						</ul>
+					</nav>
+
+
+					<div class="footer-nav">
+						<h5 class="footer-title">Contact Us</h5>
+						<div class="footer-info-item">
+							<div class="footer-info-icon"><img src="images/location-gray.svg" alt="Location"></div>
+							<div class="footer-info-text">123 Green Street, City, Country</div>
+						</div>
+						<a href="tel:+1234567890" class="footer-info-item">
+							<div class="footer-info-icon"><img src="images/phone-gray.svg" alt="Phone"></div>
+							<div class="footer-info-text">+1 234 567 890</div>
+						</a>
+
+						<div class="footer-social">
+							<a href="#">
+								<img src="images/social-twitter-gray.svg" alt="Twitter">
+							</a>
+							<a href="#">
+								<img src="images/social-linkedin-gray.svg" alt="LinkedIn">
+							</a>
+							<a href="#">
+								<img src="images/social-facebook-gray.svg" alt="Facebook">
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="footer-copyright">
+				<div class="copyright-text">Copyright © 2024 Carbon Clever. All rights reserved</div>
+			</div>
+
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
